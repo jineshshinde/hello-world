@@ -10,4 +10,4 @@ COPY . .
 
 RUN python test_hello.py
 
-#CMD ["python","test_hello.py"]
+CMD ["python","hello_world.py"]
