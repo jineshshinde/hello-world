@@ -11,7 +11,7 @@ class TestAddition(unittest.TestCase):
     def test_addition(self):
         obj = Addition(20, 30)
         res = obj.addition()
-        assert(res, 50)
+        self.assertEqual(res, 50)
 
 if __name__ == '__main__':
     unittest.main()

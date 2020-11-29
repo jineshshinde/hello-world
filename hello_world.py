@@ -4,10 +4,10 @@ class Addition:
         self.b = b
 
     def addition(self):
-        return self.a + self.b
+        return self.a - self.b
 
 if __name__ == "__main__":
-    obj = Addition(10, 20)
+    obj = Addition(20, 10)
     print(obj.addition())
 
 
