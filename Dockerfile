@@ -1,5 +1,11 @@
 FROM python:3
 
-COPY . /mnt
+WORKDIR /usr/src/app
 
-CMD ["python","hello_world.py"]
+# COPY requirements.txt ./
+
+# RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python","test_hello.py"]
