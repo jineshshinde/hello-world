@@ -8,4 +8,6 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-CMD ["python","test_hello.py"]
+RUN python test_hello.py
+
+#CMD ["python","test_hello.py"]
